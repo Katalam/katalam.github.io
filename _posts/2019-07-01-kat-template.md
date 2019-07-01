@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Template
-categories: [sqf, template]
+date: 2019-07-01 03:00
 ---
 
 <p align="center">

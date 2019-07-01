@@ -1,1 +1,1 @@
-powershell -Executionpolicy Bypass -Command "jekyll serve"
+powershell -Executionpolicy Bypass -Command "bundle exec jekyll serve"
