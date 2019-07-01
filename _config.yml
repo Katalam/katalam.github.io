@@ -23,8 +23,8 @@ github_username:  Katalam
 
 # Build settings
 markdown: kramdown
-# theme: minima
-theme: jekyll-theme-clean-blog
+theme: minima
+# theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
 
