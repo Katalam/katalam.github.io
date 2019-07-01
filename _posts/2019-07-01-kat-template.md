@@ -1,42 +1,29 @@
 ---
-layout: page
-title: Template
-date: 2019-07-01 03:00
+category: Template
+path: '/template'
+title: 'KAT Template'
+type: 'INFO'
+
+layout: default
 ---
 
-<p align="center">
-    <a href="https://github.com/Katalam/templates/releases/latest">
-        <img src="https://img.shields.io/badge/Version-2.0.9-blue.svg?style=flat-square" alt="KAT Template Version">
-    </a>
-    <a href="https://github.com/Katalam/templates/issues">
-        <img src="https://img.shields.io/github/issues-raw/Katalam/templates.svg?style=flat-square&label=Issues" alt="KAT 10thMods Issues">
-    </a>
-</p>
+### GitHub
 
-<p align="center">
-    <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.<br/>
-    Visit me on <a href="https://discord.gg/HbA93HK">Discord</a></strong></sup>
-</p>
-
-## Getting started
-
-To understand the code you have to start with this: [ACE Coding Guidelines](https://ace3mod.com/wiki/development/coding-guidelines.html) and continue here [Schedular and our Pratices](https://ace3mod.com/wiki/development/arma-3-scheduler-and-our-practices.html)
-Every not CBA Macro is defined here: [Script Component](https://github.com/Katalam/templates/blob/master/kat_template.malden/script_component.hpp)
-All Loadouts Macros are here: [Script Component](https://github.com/Katalam/templates/blob/master/kat_template.malden/functions/loadouts/script_component.hpp)
-
-Every description.ext config class is defined in a extra file. The ```#include``` macros will combine it to one file but for better overview it is seperated.
-This is a template for your own mission. So you have to delete everything you don't need.
-Mission folders have to be as small as possible. Every sound and picture have to minimised in size and length.
-For example the ```.psd``` and ```.png``` file for the unflip vehicle action don't need to be in your own mission. Or if you wanna play a german army mission, the unit insignias for the us army aren't needed.
-
-## Contributing
-
-You can help out with the ongoing development by looking for potential bugs in my code base, or by contributing new features. I am always welcome to new pull requests containing bug fixes, refactors and new features.
-
-### Submitting issues and requesting features
-
-Please, use my [Issue Tracker](https://github.com/Katalam/templates/issues) to report a bug, propose a feature, or suggest changes to the existing ones.
-
-## License
-
-KAT templates is licensed under the GNU General Public License ([GPLv3](https://github.com/Katalam/templates/blob/master/LICENSE)).
+GitHub link can be found [Here](https://github.com/Katalam/KAT_template/tree/master/kat_template.malden)
+This is the default variant that covers the [TTT](https://www.tacticalteam.de/) Standard repository. Map is set to Malden.
+Features:
+* Named Slotlist and groups
+* Predefined frequencies
+- Predefined loadouts with technical exchange board
+- Predefined vehicle loadouts with vehicle spawner and 3DEN placed compatibility
+- Predefined logistic crates for zeus logistic with 3DEN placed compatibility
+- AI Scripts for defending a building with counter attacks, throwing frags and setSkill for every KI
+- Admintools like heal all, achilles helper modules, zeus fps monitor
+- CBA Settings based technical diary record for ace3mod logistic, medic, ... settings
+- Nice statistic ending with shooten bullets, thrown frags and killed people, ...
+- Spectator TV with ability to communicate between spectators
+- Teleporter function direct to squad leader (squad leader to a random group member) and platoon leader
+- Frag grenade spawn protection
+- unflip vehicle interaction
+- Prevend enemy gear looting (except medical stuff)
+- ...
