@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Template
+categories: [sqf, template]
 ---
 
 <p align="center">
