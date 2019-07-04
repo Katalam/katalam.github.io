@@ -1,10 +1,5 @@
 ---
-category: Template
-path: '/template/no-looting'
-title: 'No Looting'
-type: 'SCRIPT'
-
-layout: default
+title: No Looting
 ---
 
 ## Locality
