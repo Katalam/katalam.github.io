@@ -1,17 +1,14 @@
 ---
-category: Template
-path: '/template/teleporter'
-title: 'Teleporter'
-type: 'SCRIPT'
-
-layout: default
+title: Teleporter
 ---
 
 ## ACE Interactions
 
 Everything in my template is based on ACE Interactions. Quick reminder how to create one:
-```private _action = [] call ACEFUNC(interact_menu,createAction);
-["", 0, [], _action] call ACEFUNC(interact_menu,addActionToClass);```
+{% highlight sqf %}
+private _action = [] call ACEFUNC(interact_menu,createAction);
+["", 0, [], _action] call ACEFUNC(interact_menu,addActionToClass);
+{% endhighlight %}
 
 More information about the ACE 3 Interaction menu framework can be found [here](https://ace3mod.com/wiki/framework/interactionMenu-framework.html).
 

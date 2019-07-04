@@ -1,6 +1,38 @@
----
-exclude: ['README.markdown']
-permalink: ':title'
-safe: false
-title: 'Katalam'
-highlighter: rouge
+# Site settings
+title: Katalam
+description: "A minimal blog"
+url: "https://katalam.com/"
+author:
+  name: "Katalam"
+  email: "n/a"
+  url: "https://katalam.com/"
+
+# Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false

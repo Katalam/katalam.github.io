@@ -1,10 +1,5 @@
 ---
-category: Template
-path: '/template'
-title: 'KAT Template'
-type: 'INFO'
-
-layout: default
+title: KAT Template
 ---
 
 ### GitHub

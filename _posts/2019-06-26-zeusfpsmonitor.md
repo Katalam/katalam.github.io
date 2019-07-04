@@ -11,8 +11,8 @@ layout: default
 
 Only accessable for logged admins and zeus.
 
-![zeusfpsmonitor_white](/images/zeusfpsmonitor_white.png "Zeus FPS Monitor standby")
-![zeusfpsmonitor_red](/images/zeusfpsmonitor_red.png "Zeus FPS Monitor signal")
+![zeusfpsmonitor_white](img/zeusfpsmonitor_white.png "Zeus FPS Monitor standby")
+![zeusfpsmonitor_red](img/zeusfpsmonitor_red.png "Zeus FPS Monitor signal")
 
 ## Script
 
