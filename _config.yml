@@ -1,6 +1,6 @@
 # Site settings
 name: Katalam
-description: "Hobby SQF scripter. Basic knowledge in some other languages."
+description: "Anyone can do my job, but no one can be me."
 url: "katalam.com"
 
 
@@ -8,6 +8,8 @@ url: "katalam.com"
 # about 5 elements are recomended
 github_username:  katalam
 steam_username: katalam
+instagram_username: bruno.goerss
+twitter_username: brunogoerss
 #blog_url: "/blog"
 email: info@katalam.com
 #public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
