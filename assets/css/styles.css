@@ -1,0 +1,43 @@
+.avatar {
+  height: 180px;
+  margin-top: 50pt;
+  border-radius: 100%;
+  border: 5px solid white;
+  text-align: center;
+  z-index: 1;
+}
+
+.h1 {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 4em;
+  margin: 10pt 10pt;
+  text-align: center;
+}
+
+.paragraph {
+  color: white;
+  margin: 10pt 10pt;
+}
+
+.background {
+  margin-top: 0;
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+  opacity: 1;
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  position: absolute;
+  margin-top: 0;
+}
+
+.nav {
+  background-color: rgb(41,41,41);
+}
+
+.margin {
+  margin-bottom: 10px;
+}
+
