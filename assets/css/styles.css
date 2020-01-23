@@ -21,24 +21,21 @@
   margin: 10pt 10pt;
 }
 
+body {
+  background-image: url("../img/background_home.jpg");
+}
+
 .background {
   margin-top: 0;
   max-width: 100%;
   min-width: 1000px;
-  height: auto;
-  z-index: -1;
-  opacity: 1;
-  filter: brightness(50%);
-  -webkit-filter: brightness(50%);
+  height: auto;  
   position: absolute;
   margin-top: 0;
 }
 
-.nav {
-  background-color: rgb(41,41,41);
-}
-
 .margin {
   margin-bottom: 10px;
+  margin-top: 0px;
 }
 
